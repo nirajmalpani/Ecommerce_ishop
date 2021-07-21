@@ -1,0 +1,99 @@
+.Listing li {
+  margin: 5px;
+  list-style: none;
+  display: flex;
+  font-weight: 450;
+  font-size: 0.75rem;
+  margin-left: 0px;
+}
+.List_categories {
+  height: 200px;
+  width: 1200px;
+  opacity: 0;
+  z-index: 9;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  transition: opacity 600ms ease;
+}
+.NoStyles {
+  border: 0;
+  width: 130px;
+  margin: 5px;
+  height: 30px;
+  background-color: white;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.acc_category {
+  height: 100%;
+  width: 35%;
+}
+.Header_Category {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 10px;
+
+  margin-bottom: 5px;
+}
+.Listing {
+  margin: 0;
+  padding: 0;
+  display: inline-table;
+
+  max-height: 0px;
+  margin-left: 10px;
+  height: 100%;
+  width: 50%;
+}
+.List {
+  display: flex;
+}
+
+.Category ul {
+  margin: 0;
+  padding: 0;
+}
+.Category ul li {
+  list-style: none;
+  display: inline-block;
+
+  margin-left: 0px;
+}
+.Category ul a {
+  margin-left: 0px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px 40px;
+  width: 100%;
+  color: gray;
+  box-shadow: 2px;
+}
+.Categorymenu {
+  margin-left: 0px;
+}
+.Category_main {
+  height: 100%;
+  width: 100%;
+}
+
+.Categorymenu:hover .List_categories {
+  max-height: inherit;
+  opacity: 0.8;
+  z-index: 9;
+}
+button .NoStyles:focus {
+  color: blue;
+  box-shadow: 2px 2px white;
+}
+.Categorymenu:not(.nohover):hover {
+  border: 0;
+  overflow: hidden;
+}

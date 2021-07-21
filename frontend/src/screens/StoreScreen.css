@@ -1,0 +1,253 @@
+.store_heading {
+  color: blue;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+.Store_top {
+  height: 1300px;
+  width: 100%;
+  display: flex;
+
+  margin-top: 30px;
+}
+.top_left_store {
+  width: 30%;
+  height: 100%;
+
+  margin: 20px;
+}
+.top_right_store {
+  width: 70%;
+  height: 100%;
+}
+.top_right_store h2 {
+  font-size: 1.75rem;
+}
+.top_right_store h4 {
+  font-size: 1.5rem;
+}
+
+.Accesories_selector {
+  height: 300px;
+  width: 100%;
+}
+.top_left_store h2 {
+  width: 100%;
+}
+.Ranger_div h3 {
+  width: 50%;
+  display: inline-block;
+  margin-top: 18px;
+}
+.Selecting_solor {
+  margin: 20px;
+  display: flex;
+}
+.circleButton1 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: pink;
+}
+.circleButton2 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: blue;
+}
+.circleButton3 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: grey;
+}
+.circleButton4 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: red;
+}
+.circleButton5 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: green;
+}
+.NoStyle {
+  border: 0;
+  width: 90%;
+  height: 25px;
+  margin: 10px;
+  display: flex;
+  background-color: whitesmoke;
+  font-weight: 500;
+}
+.Gap {
+  margin-left: 303px;
+}
+.Gap1 {
+  margin-left: 320px;
+}
+.Gap2 {
+  margin-left: 281px;
+}
+.Gap3 {
+  margin-left: 285px;
+}
+button:focus {
+  color: blue;
+  box-shadow: 2px 2px white;
+}
+.Brand_Selector {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Colour_selector {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Price_range {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Accesories_selector {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Gap4 {
+  margin-left: 275px;
+}
+.Gap5 {
+  margin-left: 255px;
+}
+.Gap6 {
+  margin-left: 285px;
+}
+.Gap7 {
+  margin-left: 307px;
+}
+.More_item {
+  background-color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  height: 25px;
+}
+.storescreen__products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.StoreFeature {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+}
+.StoreFeature h5 {
+  margin: 20px;
+}
+.StoreFeature .store_dropdown {
+  margin: 20px;
+  height: 30px;
+  width: 60px;
+}
+.page_number {
+  width: 70%;
+  margin: 10%;
+  height: 60px;
+  align-items: center;
+  margin-left: 250px;
+}
+.pagebutton {
+  width: 90px;
+  height: 40px;
+}
+.pagebutton:focus {
+  background-color: black;
+  color: white;
+}
+.Store_mobile_header {
+  display: none;
+}
+.mobile_page_number {
+  display: none;
+}
+@media (max-width: 630px) {
+  .top_left_store {
+    display: none;
+  }
+  .top_right_store {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .storescreen__products {
+    grid-template-columns: 1fr;
+  }
+  .store_heading {
+    display: None;
+  }
+  .Store_mobile_header {
+    display: block;
+    margin-top: 20px;
+  }
+  .store_mobile_heading {
+    color: blue;
+    font-size: 0.5rem;
+    font-weight: 300;
+    text-align: center;
+    background-color: rgb(180, 166, 166);
+  }
+  .mobile_store_feature {
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(219, 208, 208);
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .mobile_store_feature h5 {
+    margin: 10px;
+  }
+
+  .mobile_store_dropdown {
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(180, 166, 166);
+  }
+  .dots {
+    color: blue;
+  }
+  .StoreFeature {
+    display: none;
+  }
+  .mobile_page_number {
+    width: 70%;
+    margin: 10%;
+    height: 60px;
+    align-items: center;
+    margin-left: 50px;
+    display: block;
+  }
+  .mobile_pagebutton {
+    width: 90px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .mobile_pagebutton:focus {
+    background-color: blue;
+    color: white;
+  }
+}

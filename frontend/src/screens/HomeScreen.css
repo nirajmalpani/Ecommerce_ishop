@@ -1,0 +1,322 @@
+.homescreen {
+  max-width: 1300px;
+  margin: 1rem auto;
+}
+.Best_seller_heading {
+  width: 100%;
+  height: 100px;
+}
+
+.homescreen__title {
+  font-size: 2rem;
+  color: #171717;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+  text-align: center;
+}
+.grad1 {
+  height: 400px;
+  background-color: pink; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, pink, blue);
+}
+.image-size {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  border: 0px;
+}
+.main-home {
+  z-index: -1;
+}
+.Choosing_bar {
+  width: 80%;
+  margin-left: 10%;
+}
+.Choosing_bar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Choosing_bar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px;
+
+  margin-top: -20px;
+}
+.Choosing_bar ul li a {
+  text-decoration: none;
+  display: block;
+  justify-content: space-around;
+  font-size: 1.25rem;
+  font-weight: 300;
+  width: 80%;
+  color: black;
+
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.Choosing_bar ul li a {
+  color: black;
+}
+.Choosing_bar ul li a:hover {
+  color: #00f;
+}
+
+.homescreen__products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.load_more {
+  color: blue;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 45%;
+  height: 20px;
+}
+.iphone_addvertisement {
+  width: 100%;
+  height: 300px;
+  background-color: lightblue;
+  margin-top: 20px;
+  display: flex;
+}
+.iphone_add_text {
+  color: white;
+  width: 60%;
+  height: 300px;
+  text-align: center;
+}
+.iphone_add_text h2 {
+  padding: 50px 30px;
+  margin-left: 100px;
+  font-size: 2.5rem;
+}
+.iphone_add_text h4 {
+  padding: 20px 5px;
+  margin-left: 100px;
+  font-size: 1.5rem;
+}
+.iphone_add_pic {
+  margin-left: 40%;
+  z-index: 9;
+  width: 40%;
+  height: 300px;
+}
+.iphone_add_pic_image {
+  height: 300px;
+  width: 100%;
+}
+.Ishop_Support {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  height: 700px;
+}
+.Shipping_Refund_Support {
+  display: flex;
+  width: 100%;
+  height: 45%;
+}
+.Shipping {
+  height: 100%;
+  width: 30%;
+
+  margin: 15px;
+}
+.size-ship {
+  margin-left: 80px;
+
+  color: rgb(187, 27, 27);
+}
+.Shipping h2 {
+  text-align: center;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+.Shipping p {
+  font-size: 0.75rem;
+  text-align: center;
+}
+.fas fa-shipping-fast {
+  height: 100%;
+}
+
+.Featured_products {
+  margin-top: 30px;
+  height: 55%;
+  width: 100%;
+}
+.Featured_products h2 {
+  text-align: center;
+}
+.Footer {
+  height: 600px;
+  width: 90%;
+  margin: 5%;
+}
+.Footer_head {
+  height: 45%;
+  width: 100%;
+
+  display: flex;
+}
+.Ishop_end {
+  width: 30%;
+  height: 100%;
+}
+.Ishop_end h2 {
+  color: gray;
+  margin: 10px;
+  text-align: center;
+}
+.Ishop_end h3 {
+  margin: 10px;
+  text-align: center;
+}
+.Ishop_end p {
+  text-align: left;
+  margin: 5px;
+  margin-top: 20px;
+}
+.Footer_end {
+  display: flex;
+  width: 100%;
+  height: 40%;
+}
+.Row_element {
+  height: 100%;
+  width: 15%;
+  margin: 10px;
+}
+.Row_element ul {
+  text-decoration: none;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.Row_element ul li {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 0px;
+  font-weight: 300;
+}
+.Cards {
+  margin-left: 1000px;
+  margin-top: 40px;
+}
+
+.mobile_DropDown {
+  display: none;
+}
+.iphone_addvert12 {
+  display: none;
+}
+@media (max-width: 1232px) {
+  .homescreen__products {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (max-width: 950px) {
+  .homescreen__products {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 630px) {
+  .homescreen__products {
+    grid-template-columns: 1fr;
+  }
+  .iphone_add_pic {
+    margin: 0;
+    width: 100%;
+  }
+  .grad1 {
+    display: none;
+  }
+  .iphone_addvert12 {
+    display: inline-block;
+    margin-top: 0px;
+    height: 400px;
+  }
+  .iphone_12 {
+    z-index: 0;
+    opacity: 0.4;
+  }
+  .iphone_add_text12 {
+    z-index: 9;
+    opacity: 0.8;
+    margin-top: -350px;
+    margin-left: 20px;
+  }
+  .mobile_DropDown {
+    display: block;
+    align-items: center;
+  }
+  .ChoosingMenu {
+    display: none;
+  }
+  .device_dropdown {
+    background-color: whitesmoke;
+    width: 150px;
+    height: 40px;
+    margin-left: 70px;
+  }
+  .Ishop_Support {
+    display: block;
+    margin: 10px;
+    height: auto;
+  }
+  .Shipping_Refund_Support {
+    display: block;
+    width: 100%;
+  }
+  .Shipping {
+    width: 100%;
+  }
+  .iphone_add_pic {
+    width: 100%;
+    z-index: 0;
+    opacity: 0.2;
+    margin-top: -280px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .iphone_addvertisement {
+    display: block;
+  }
+  .iphone_add_text {
+    color: #171717;
+    font-size: 2rem;
+    font-weight: 200;
+    display: inline;
+    z-index: 9;
+    opacity: 0.8;
+    margin-top: -350px;
+    margin-left: 20px;
+  }
+  .iphone_add_text h2 {
+    font-size: 2rem;
+    color: black;
+  }
+  .iphone_add_text h4 {
+    font-size: 1rem;
+    color: black;
+  }
+  .iphone_add_text a {
+    list-style: none;
+    align-self: center;
+    margin: 20px;
+    font-size: 1rem;
+    color: blue;
+    margin-left: 200px;
+  }
+  .Footer {
+    display: none;
+  }
+}
